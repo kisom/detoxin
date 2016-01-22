@@ -1,0 +1,25 @@
+.Dd $Mdocdate$
+.Dt DETOX 1
+.Os
+.Sh NAME
+.Nm detox
+.Nd strip toxic characters
+.Sh SYNOPSIS
+.Nm
+.Op Fl i
+.Op Ar files
+.Sh DESCRIPTION
+.Nm
+strips out ANSI colour codes and backspace characters (e.g. terminal
+overwrites) from its input. If no arguments are provided, it reads from
+standard input; otherwise, it reads the files. If the
+.Fl i
+flag is specified, the files will be edited in place.
+.Sh EXIT STATUS
+.Nm
+returns 0 on success, and 1 if any files couldn't be processed.
+.Sh AUTHORS
+.Nm
+was written by
+.An Kyle Isom Aq Mt coder@kyleisom.net .
+
