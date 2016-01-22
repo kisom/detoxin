@@ -1,0 +1,6 @@
+#!/usr/bin/make -f
+
+export DH_GOPKG := git.kyleisom.net/util/detox
+
+%:
+	dh $@ --buildsystem=golang --with=golang
