@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: detox
-Source: https://git.kyleisom.net/util/detox
+Upstream-Name: detoxin
+Source: https://git.kyleisom.net/util/detoxin
 
 Files: *
 Copyright: 2016 Kyle Isom

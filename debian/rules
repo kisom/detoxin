@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-export DH_GOPKG := git.kyleisom.net/util/detox
+export DH_GOPKG := git.kyleisom.net/util/detoxin
 
 %:
 	dh $@ --buildsystem=golang --with=golang

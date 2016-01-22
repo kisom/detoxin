@@ -10,3 +10,4 @@ the ``-i`` flag is given, ``detox`` will modify files in place; otherwise,
 it emits the detoxified version to standard output.
 
 This program is released under the MIT license; see the LICENSE file.
+

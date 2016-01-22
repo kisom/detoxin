@@ -1,4 +1,4 @@
-Source: detox
+Source: detoxin
 Section: utils
 Priority: extra
 Maintainer: Kyle Isom <kyle@imap.cc>
@@ -7,16 +7,16 @@ Build-Depends: debhelper (>= 9),
                dh-golang,
                golang-go
 Standards-Version: 3.9.6
-Homepage: https://git.kyleisom.net/util/detox
-Vcs-Browser: https://git.kyleisom.net/util/detox
-Vcs-Git: https://git.kyleisom.net/util/detox
+Homepage: https://git.kyleisom.net/util/detoxin
+Vcs-Browser: https://git.kyleisom.net/util/detoxin
+Vcs-Git: https://git.kyleisom.net/util/detoxin
 
-Package: detox
+Package: detoxin
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          golang-go
 Built-Using: ${misc:Built-Using}
 Description: 
- detox helps detoxify the output from programs by removing backspace
+ detoxin helps detoxify the output from programs by removing backspace
  sequences (à la ``col -b``) and ANSI control codes (e.g. colour codes).
